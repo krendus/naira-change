@@ -1,12 +1,12 @@
 import React from 'react'
-import BlackMarket from './black-market'
+import News from './news'
 
 const Page = () => {
   return (
-    <><BlackMarket /></>
+    <><News /></>
   )
 }
 export const metadata = {
-    title: 'Naira Change | Black Market Rates',
+    title: 'Naira Change | News',
   }
 export default Page

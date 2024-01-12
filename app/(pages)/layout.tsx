@@ -4,9 +4,9 @@ import Footer from '../components/footer'
 
 const Layout:FC<PropsWithChildren> = ({ children }) => {
   return (
-    <div>
+    <div className='min-h-[100dvh] flex flex-col'>
         <Nav />
-        <div>
+        <div className='flex-1'>
             {children}
         </div>
         <Footer />

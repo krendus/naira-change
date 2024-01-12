@@ -1,0 +1,72 @@
+.container {
+    border-radius: 20px;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 30px auto;
+}
+.container h1 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+}
+.rateSelect {
+    height: 40px;
+    padding: 8px 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+    width: 100%;
+    font-size: 14px;
+    margin: 20px 0;
+}
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+.inputContainer label {
+    font-size: 14px;
+    font-weight: 500;
+}
+.inputContainer div {
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    /* overflow: hidden; */
+}
+.inputSelect {
+    width: 130px !important;
+    background: #fff;
+    outline: none;
+    font-size: 18px;
+    height: 38px !important;
+    padding: 3px 10px;
+    border: none !important;
+    border-radius: 0px !important;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border-right: 1px solid #ccc !important;
+}
+.inputSelect button{
+    width: 130px !important;
+    height: 38px !important;
+    border: none !important;
+    border-right: 1px solid #ccc;
+}
+.inputContainer input {
+    height: 100%;
+    background: #fff;
+    width: calc(100% - 80px);
+    outline: none;
+    border: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+}

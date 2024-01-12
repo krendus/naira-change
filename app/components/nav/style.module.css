@@ -1,0 +1,46 @@
+.nav {
+    height: 67px;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    width: 100vw;
+}
+.topNav {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    background: #092007;
+}
+.wrap {
+    margin: 0 auto;
+    width: 95%;
+    min-width: 95%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    font-size: 14px;
+    align-items: center;
+}
+.topNav div {
+    align-items: center;
+    height: 100%;
+    column-gap: 15px;
+}
+.topNav div div a {
+    font-weight: 500;
+    color: #b3f7b3;
+}
+.topNav div div a:hover {
+    color: #fff;
+}
+.rate {
+    font-size: 14px;
+    display: flex;
+    column-gap: 10px;
+    margin: 3px 15px;
+    align-items: center;
+}
+.rate p span {
+    font-weight: 600;
+}

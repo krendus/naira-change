@@ -6,5 +6,5 @@ export default function IndexPage() {
 }
 
 export const metadata = {
-  title: 'Naira Change',
+  title: 'Naira Change | Home',
 }
