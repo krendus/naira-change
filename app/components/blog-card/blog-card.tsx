@@ -1,4 +1,4 @@
-import { TimeIcon } from '@/app/components/icon'
+import { TimeIcon } from '@/lib/svg-icons'
 import React from 'react'
 
 const BlogCard = () => {
