@@ -1,4 +1,4 @@
-import { TimeIcon } from '@/app/assets/icon'
+import { TimeIcon } from '@/app/components/icon'
 import React from 'react'
 
 const BlogCard = () => {

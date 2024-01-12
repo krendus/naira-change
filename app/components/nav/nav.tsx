@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import CountryFlag from 'react-country-flag'
 import Marquee from 'react-fast-marquee'
 import styles from './style.module.css'
-import { NavIcon } from '@/app/assets/icon'
+import { NavIcon } from '@/app/components/icon'
 
 const Nav = () => {
   const [showNav, setShowNav] = useState(false);
