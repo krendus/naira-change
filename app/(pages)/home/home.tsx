@@ -26,7 +26,7 @@ const HomePage = () => {
               <p className='text-sm md:text-lg font-normal mt-3'>Welcome to Naira Rate, your go-to destination for accurate and up-to-the-minute exchange rates. Whether you're a globetrotter, a savvy investor, or a business owner navigating international markets, we've got you covered with real-time currency information. Stay informed, make informed decisions.</p>
             </div>
             <div className='flex-1 flex flex-col justify-center'>
-              <h1 className='text-lg md:text-2xl font-medium text-center'>Recent Rates</h1>
+              <h1 className='text-lg md:text-2xl font-medium text-center'>Today's Rates</h1>
               <div className='px-8 pt-7 flex flex-col gap-y-4 items-center'>
                 <div className='rounded-full bg-white px-5 py-3 flex justify-between items-center text-gray-800 w-full max-w-[500px]'>
                   <div className='flex gap-x-3 items-center'>
