@@ -6,5 +6,5 @@ export default function IndexPage() {
 }
 
 export const metadata = {
-  title: 'Naira Change | Home',
+  title: 'Naira Rates: Your Source for Official and Market Exchange Rates in Nigeria',
 }

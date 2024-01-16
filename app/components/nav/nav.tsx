@@ -20,12 +20,12 @@ const Nav = () => {
             <Link href="/remittances">Remittances</Link>
             <Link href="/news">News</Link>
           </div>
-          <button className='block md:hidden text-white' onClick={() => setShowNav(!showNav)}>
+          <button className='block md:hidden text-white' name='Navigation Toggle' onClick={() => setShowNav(!showNav)}>
             <NavIcon height={"30px"} width={"40px"} />
           </button>
         </div>
       </div>
-      <Marquee speed={30} pauseOnHover style={{ background: "#b3f7b3", borderBottom: "1px solid #ccc"}}>
+      <Marquee speed={30} pauseOnHover style={{ background: "#d9f0d9", borderBottom: "1px solid #ccc"}}>
         <div className={styles.rate}>
           <CountryFlag
               countryCode="CH"
