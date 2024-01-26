@@ -133,17 +133,17 @@ const HomePage = () => {
             </div>
             <div  className='sticky top-[70px]'>
               <h3 className='font-medium text-center text-gray-800 mt-5'>Chat Room</h3>
-              <div className='w-full flex flex-col my-4 mx-auto h-[400px] max-w-[600px] p-2 bg-[#eee] rounded-2xl'>
-                <div className='flex-1 flex flex-col gap-y-2 overflow-y-scroll'>
+              <div className='w-full flex flex-col my-4 mx-auto h-[400px] max-w-[600px] p-2 bg-[#f6f6f6] rounded-2xl'>
+                <div className='flex-1 flex flex-col overflow-y-scroll'>
                     <ChatCard
                       msg='how na'
                       name='krendus'
                       time='24th Jan, 2024 5:00pm'
                     />
                     <ChatCard
-                      msg='how na'
-                      name='krendus'
-                      time='24th Jan, 2024 5:00pm'
+                      msg='I dey'
+                      name='Jiga'
+                      time='24th Jan, 2024 5:03pm'
                     />
                     <ChatCard
                       msg='how na'
