@@ -1,1 +1,1 @@
-export { default } from "./rates-card";
+export { default } from "./admin-rates-card";
