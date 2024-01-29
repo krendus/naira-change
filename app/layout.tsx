@@ -16,7 +16,7 @@ export default function RootLayout(props: React.PropsWithChildren) {
         <meta name="twitter:title" content="Naira Rates: Your Source for Official and Market Exchange Rates in Nigeria" />
         <meta name="twitter:description" content="Check the latest Naira exchange rates and currency conversion. Stay updated with accurate and real-time Nigerian Naira rates." />
         <meta name="twitter:image" content="https://i.postimg.cc/XqnPCPtc/NAir-A-2-1.png" />
-
+        <meta name="google-adsense-account" content="ca-pub-4326412133681320"/>
         <body> 
           <main>{props.children}</main>
         </body>
