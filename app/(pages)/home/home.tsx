@@ -8,6 +8,7 @@ import BlogCard from '@/app/components/blog-card/blog-card';
 import Image from 'next/image';
 import CountryFlag from 'react-country-flag';
 import ChatCard from '@/app/components/chat-card/chat-card';
+import Script from 'next/script';
 
 const HomePage = () => {
   const [displayName, setDisplayName] = useState("");
@@ -105,6 +106,7 @@ const HomePage = () => {
               <RatesCard />
               <RatesCard />
             </div>
+            <div id="disqus_thread" className='px-5 outline-none'></div>
             <h3 className='font-medium text-center text-gray-800 mt-5'>Recent News</h3>
             <div className='flex py-7 px-5 flex-wrap gap-4'>
               <BlogCard />
@@ -131,68 +133,17 @@ const HomePage = () => {
                 }}
               />
             </div>
-            <div  className='sticky top-[70px]'>
-              <h3 className='font-medium text-center text-gray-800 mt-5'>Chat Room</h3>
-              <div className='w-full flex flex-col my-4 mx-auto h-[400px] max-w-[600px] p-2 bg-[#f6f6f6] rounded-2xl'>
-                <div className='flex-1 flex flex-col overflow-y-scroll'>
-                    <ChatCard
-                      msg='how na'
-                      name='krendus'
-                      time='24th Jan, 2024 5:00pm'
-                    />
-                    <ChatCard
-                      msg='I dey'
-                      name='Jiga'
-                      time='24th Jan, 2024 5:03pm'
-                    />
-                    <ChatCard
-                      msg='how na'
-                      name='krendus'
-                      time='24th Jan, 2024 5:00pm'
-                    />
-                    <ChatCard
-                      msg='how na'
-                      name='krendus'
-                      time='24th Jan, 2024 5:00pm'
-                    />
-                    <ChatCard
-                      msg='how na'
-                      name='krendus'
-                      time='24th Jan, 2024 5:00pm'
-                    />
-                    <ChatCard
-                      msg='how na'
-                      name='krendus'
-                      time='24th Jan, 2024 5:00pm'
-                    />
-                    <ChatCard
-                      msg='how na'
-                      name='krendus'
-                      time='24th Jan, 2024 5:00pm'
-                    />
-                    <ChatCard
-                      msg='how na'
-                      name='krendus'
-                      time='24th Jan, 2024 5:00pm'
-                    />
-                </div>
-                {!currentDisplay && (
-                  <div className='flex bg-white rounded-full overflow-hidden p-2 mt-2'>
-                    <input type="text" placeholder='Enter username' className='flex-1 outline-none text-sm px-3 w-[calc(100%-120px)]' value={displayName} onChange={(e) => setDisplayName(e.target.value)} />
-                    <button onClick={handleSetDisplay} className='text-sm font-medium text-white bg-[#092007] rounded-full py-2 w-[120px] min-w-[120px]'>Proceed</button>
-                  </div>
-                )}
-                {currentDisplay && (
-                  <div className='flex bg-white rounded-full overflow-hidden p-2 mt-2'>
-                      <input type="text" placeholder='Type Your Message' value={msg} onChange={(e) => setMsg(e.target.value)}  className='w-[calc(100%-120px)] outline-none text-sm px-3'/>
-                      <button className='text-sm font-medium text-white bg-[#092007] rounded-full py-2 w-[120px] min-w-[120px]'>Send</button>
-                  </div>
-                )}
-              </div>
-            </div>
           </div>
         </div>
       </div>
+      <Script>
+      {`(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://naira-rates.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();`}
+      </Script>
     </div>
   )
 }

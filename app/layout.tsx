@@ -1,6 +1,7 @@
 /* Components */
 import { Providers } from '@/lib/providers'
 import './styles/globals.css'
+import Script from 'next/script'
 
 export default function RootLayout(props: React.PropsWithChildren) {
   return (
