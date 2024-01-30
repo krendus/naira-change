@@ -20,7 +20,7 @@ const HomePage = () => {
     <div>
       <div>
         <div className='h-auto md:h-[calc(100dvh-67px)] min-h-max mt-[67px] py-10 md:py-0 bg-[#092007] text-white'>
-          <div className='w-[95%] flex flex-col md:flex-row gap-7 mx-auto my-0 h-full'>
+          <div className='w-[95%] max-w-[1200px] flex flex-col md:flex-row gap-7 mx-auto my-0 h-full'>
             <div className='flex-1 relative flex items-center justify-center flex-col text-center md:text-left'>
               <h1 className='text-[20px] md:text-[40px] font-bold w-full'>Discover Real-Time Exchange Rates with Naira Rate</h1>
               <p className='text-sm md:text-lg font-normal mt-3'>Welcome to Naira Rate, your go-to destination for accurate and up-to-the-minute exchange rates. Whether you're a globetrotter, a savvy investor, or a business owner navigating international markets, we've got you covered with real-time currency information. Stay informed, make informed decisions.</p>
@@ -92,7 +92,7 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-        <div className='flex mt-8 w-[95%] mx-auto my-0 flex-col md:flex-row'>
+        <div className='flex mt-8 w-[95%] max-w-[1200px] mx-auto my-0 flex-col md:flex-row'>
           <div className='flex-1'>
             <h3 className='font-medium text-center text-gray-800'>Exchange Rates</h3>
             <div className='flex py-7 px-5 flex-wrap gap-4'>
@@ -124,7 +124,7 @@ const HomePage = () => {
               <Timeline
                 dataSource={{
                   sourceType: "profile",
-                  screenName: "naira_rates"
+                  screenName: "NairaRates_"
                 }} 
                 options={{ 
                   height: '400'
